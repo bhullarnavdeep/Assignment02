@@ -1,0 +1,114 @@
+/* 
+Name: Navdeep Singh 
+Student Number: 8834739
+*/
+
+/*html font style*/
+html {
+    font: normal normal normal 20px/1.5 Arial, Helvetica, sans-serif;
+}
+
+figcaption {
+    font-size: 1.2em; 
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+q {
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: cursive;
+}
+
+footer p {
+    padding: 10px;
+    font-size: 1em; 
+}
+/* body style starts here*/
+body {
+    /* width: 80%; */
+    padding:0 40px;
+}
+
+.main-section-figure img {
+    height: auto;
+    width: 100%;
+}
+
+.main-section-figure {
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+iframe, video {
+    width: 100%;
+}
+
+/* body {
+    padding: 20px;
+    margin: 0 auto;
+} */
+
+header, footer {
+    text-align: center;
+}
+/* Box Model & Alignment */
+.mainsection {
+    padding: 20px;
+    text-align: center;
+}
+
+#bio {
+    text-align: left;
+}
+
+/* .main-section-figure img {
+    padding: 10px;
+} */
+
+.main-section-figure {
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#absolute-path-image,
+#relative-path-image {
+    border-radius: 10px;
+    border: 2px solid #080808;
+}
+/* adjusting font color  */
+h1, h2 {
+    color: #004526;
+}
+
+figcaption#relative-path-image {
+    color: #47723c; 
+}
+
+figcaption#absolute-path-image {
+    color: #3030a1;
+}
+
+
+header, footer {
+    background: linear-gradient(to top, #87ecaa, #cccccc); 
+}
+/* adjusting background color  */
+
+.mainsection {
+    background-color: rgb(234, 226, 217);
+}
+
+#relative-path-image {
+    background-color: hsla(35, 85%, 85%, 1);
+}
+#absolute-path-image {
+    background-color: hsla(35, 85%, 85%, 1);
+}
+
