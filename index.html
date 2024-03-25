@@ -5,6 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Sidhu Moose Wala - Singer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Sidhu Moose Wala, singer, music" />
     <title>Famous Person Web Page</title>
     <link rel="stylesheet" href="styles.css" />
@@ -13,12 +14,18 @@
   <body>
     <!-- header -->
     <header>
-      <h1>SIDHU MOOSE WALA</h1>
+      <h1>Sidhu Moose Wala</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- main -->
     <main>
-
-      <section class="mainsection">
+      <div class="container">
+      <section class="mainsection" id="biography-section">
         <h2>Biography</h2>
         <blockquote id="bio">
           <p>
@@ -41,12 +48,13 @@
         </blockquote>
       </section>
 
-      <section class="mainsection">
-        <h2>Images</h2>
-        <figure class="main-section-figure" id="relative-path-image">
-          <img src="img/img1.jpg" alt="Legend Moose Wala" />
-          <figcaption>Legend Moose Wala</figcaption>
-        </figure>
+      <section class="mainsection" id="image-section">
+        <!-- <h2>Images</h2> -->
+        <!-- <figure class="main-section-figure" id="absolute-path-image">
+        <img src="https://logicalfact.in/wp-content/uploads/2020/12/Sidhu-Moose-wala-Photos-20204-min.jpg" alt="Sidhu with AK-47" />
+        <figcaption>Sidhu with AK-47</figcaption>
+      </figure> -->
+      <!-- Commented out the figure with absolute path image -->
 
         <figure class="main-section-figure" id="absolute-path-image">
           <img
@@ -57,6 +65,7 @@
         </figure>
 
       </section>
+      </div>
 
       <section class="mainsection">
         <h2>Quote</h2>
@@ -69,18 +78,50 @@
       <section class="mainsection">
         <h2>Media</h2>
 
-        <iframe
-          width="560"
-          height="550"
-          src="https://www.youtube.com/embed/GL1iQo-90Wo?si=-v11DXV4AGfvl328"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <iframe width="560" height="550" src="https://www.youtube.com/embed/b_l1IP_6psY?si=jH-8e-2840vypMtX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       </section>
     </main>
+    <!-- aside -->
+
+    <aside >
+      <h3>FAQs</h3>
+      <table>
+        <tr>
+          <th>Question</th>
+          <th>Answer</th>
+        </tr>
+        <tr>
+          <td>Who is the No 1 Punjabi singer in world?</td>
+          <td>Sidhu Moose Wala</td>
+        </tr>
+        <tr>
+          <td>What is Sidhu Moose Wala's real name?</td>
+          <td>Shubhdeep Singh Sidhu</td>
+        </tr>
+        <tr>
+          <td>When was Sidhu Moose Wala born?</td>
+          <td>11 June 1993</td>
+        </tr>
+        <tr>
+          <td>Where was Sidhu Moose Wala shot?</td>
+          <td>Jawaharke village of Mansa</td>
+        </tr>
+      
+        <tr>
+          <td>Which singer has the biggest crowd?</td>
+          <td>Sidhu Moose Wala</td>
+        </tr>
+      </table>
+      <h3>External Links</h3>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Sidhu_Moose_Wala" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.youtube.com/@SidhuMooseWalaOfficial" target="_blank">YouTube Channel</a></li>
+        <li><a href="https://www.instagram.com/sidhu_moosewala/" target="_blank">Instagram</a></li>
+        <li><a href="https://twitter.com/iSidhuMooseWala" target="_blank">Twitter</a></li>
+        <li><a href="https://www.snapchat.com/add/SidhuShubh" target="_blank">Snapchat</a></li>
+      </ul>
+    </aside>
     <!--Footer-->
     <footer>
       <p>&copy; Navdeep Singh - 2024</p>
